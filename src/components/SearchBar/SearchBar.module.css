@@ -1,0 +1,40 @@
+.header {
+  background-color: #2196f3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.input {
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+}
+
+.button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2196f3;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+  color: white;
+}
+
+.button:hover {
+  background-color: #1976d2;
+}
